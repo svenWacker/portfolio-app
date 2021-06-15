@@ -1,6 +1,6 @@
 # Getting Started with Translate To Morse App
 
-This project was made by hand [Run Translate To Morse App](http://svenWacker.github.io/portfolio-app).
+This project was made by hand [Run Portfolio App](http://svenWacker.github.io/portfolio-app).
 
 ## Prework
 
@@ -25,8 +25,7 @@ In the project directory, you can run:
 
 ## Initial commit, updating and connecting GitHub
 
-git init
-git remote add origin git@github.com:svenWacker/portfolio-app.git
+git remote add origin https://github.com/svenWacker/portfolio-app.git
 git branch -M main
 git push -u origin main
 
@@ -57,4 +56,4 @@ Builds the app for deploying to gh-pages
 
 npm install react-router-dom
 npm install react-icons --save
-npm install react-icons --save
+npm install react-bootstrap bootstrap@4.6.0
