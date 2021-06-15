@@ -5,7 +5,7 @@ const Product = ({ data }) => {
     const { id, productName, icon, inventory, price } = item;
     return (
       <li key={id}>
-        <Link to={`/product/${id}`}>
+        <Link to={`/project/${id}`}>
           <h5>{productName}</h5>
         </Link>
         <i>{icon}</i>
