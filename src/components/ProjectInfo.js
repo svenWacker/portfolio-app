@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ProductInfo = (props) => {
+const ProjectInfo = (props) => {
   const selectedItem = props.data.filter((item) => item.id == props.id);
   console.log(selectedItem);
 
@@ -28,4 +28,4 @@ const ProductInfo = (props) => {
   );
 };
 
-export default ProductInfo;
+export default ProjectInfo;

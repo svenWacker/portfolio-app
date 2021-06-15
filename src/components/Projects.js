@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Product = ({ data }) => {
+const Project = ({ data }) => {
   const items = data.map((item) => {
     const { id, productName, icon, inventory, price } = item;
     return (
@@ -22,4 +22,4 @@ const Product = ({ data }) => {
   );
 };
 
-export default Product;
+export default Project;

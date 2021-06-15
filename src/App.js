@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Data from "./data.json";
-import Products from "./components/Projects";
-import ProductInfo from "./components/ProjectInfo";
+import Projects from "./components/Projects";
+import ProjectInfo from "./components/ProjectInfo";
 import About from "./components/About";
 import Menu from "./components/Menu";
 import Home from "./components/Home";
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <Menu />
-      <h1 className="jumbotron">Online Store</h1>
+      <h1 className="jumbotron">Portfolio Sven Wacker</h1>
       <Switch>
         {
           // <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
@@ -20,19 +20,19 @@ const App = () => {
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route
-          path="/product"
+          path="/project"
           exact
-          component={() => <Products data={Data} />}
+          component={() => <Projects data={Data} />}
         />
         {
           // more about match
           // https://reactrouter.com/web/api/match
         }
         <Route
-          path="/product/:id"
+          path="/project/:id"
           component={({ match }) => {
             console.log(match);
-            return <ProductInfo data={Data} id={match.params.id} />;
+            return <ProjectInfo data={Data} id={match.params.id} />;
           }}
         />
         {
