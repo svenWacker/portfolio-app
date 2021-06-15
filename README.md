@@ -55,5 +55,7 @@ Builds the app for deploying to gh-pages
 ### `adding packages`
 
 npm install react-router-dom
+
 npm install react-icons --save
+
 npm install react-bootstrap bootstrap@4.6.0
