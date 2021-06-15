@@ -1,9 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// body {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 nav li {
   padding-left: 2rem;
@@ -14,4 +14,23 @@ nav li {
 
 nav li:hover {
   background-color: orange;
+}
+
+.app {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 1px;
+  min-height: 100vh;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+@media (min-width: 800px) {
+  .app {
+    padding: 0 100px;
+    margin-top: 5vh;
+    min-height: 90vh;
+  }
 }
