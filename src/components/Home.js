@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 const Home = () => {
   return (
     <div className="home">
-      <div className="title">
+      <div className="split">
         <h1>
           <p>Hi,</p>
           <p>I am Sven</p>
@@ -13,7 +13,7 @@ const Home = () => {
           <button>More Information</button>
         </Link>
       </div>
-      <div className="person">
+      <div className="split person">
         <img src={`${process.env.PUBLIC_URL}/me.jpg`} alt="my picture" />
       </div>
     </div>

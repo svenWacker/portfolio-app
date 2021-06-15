@@ -7,11 +7,11 @@ const ProjectInfo = (props) => {
 
   const moreInfo = selectedItem.length
     ? selectedItem.map((item) => {
-        const { id, productName, icon, inventory, price } = item;
+        const { id, timeFrame, projectName, jobTitle, description } = item;
         return (
           <li key={id}>
-            <h2>{productName} </h2>
-            <h5>{price}€</h5>
+            <h2>{jobTitle} </h2>
+            <h3>{description}</h3>
           </li>
         );
       })

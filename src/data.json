@@ -1,51 +1,37 @@
 [
   {
     "id": 0,
-    "productName": "apple",
-    "icon": "🍏",
-    "price": 3,
-    "inventory": 10
+    "timeFrame": "Sine 2019",
+    "projectName": "Self employed",
+    "jobTitle": "Engineer and Developer",
+    "description": "-text\n-text2\n-text3"
   },
   {
     "id": 1,
-    "productName": "watermelon",
-    "icon": "🍉",
-    "price": 90,
-    "inventory": 3
+    "timeFrame": "2018 - 2019",
+    "projectName": "Seleon GmbH",
+    "jobTitle": "Area Sales Manger",
+    "description": "-text\n-text2\n-text3"
   },
   {
     "id": 2,
-    "productName": "pizza",
-    "icon": "🍕",
-    "price": 10,
-    "inventory": 100
+    "timeFrame": "2013 - 2018",
+    "projectName": "Friatec AG",
+    "jobTitle": "Business Development, Category Manager",
+    "description": "-text\n-text2\n-text3"
   },
   {
     "id": 3,
-    "productName": "salad",
-    "icon": "🥗",
-    "price": 40,
-    "inventory": 0
+    "timeFrame": "2012 - 2013",
+    "projectName": "Mechatronic AG",
+    "jobTitle": "Sales Manager",
+    "description": "-text\n-text2\n-text3"
   },
   {
     "id": 4,
-    "productName": "ice cream",
-    "icon": "🍦",
-    "price": 7,
-    "inventory": 66
-  },
-  {
-    "id": 5,
-    "productName": "water",
-    "icon": "🧊",
-    "price": 10,
-    "inventory": 0
-  },
-  {
-    "id": 6,
-    "productName": "sushi",
-    "icon": "🍣",
-    "price": 33,
-    "inventory": 3
+    "timeFrame": "2008 - 2012",
+    "projectName": "Friatec AG",
+    "jobTitle": "Application Engineer",
+    "description": "-text\n-text2\n-text3"
   }
 ]
