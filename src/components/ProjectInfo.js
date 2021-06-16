@@ -10,8 +10,16 @@ const ProjectInfo = (props) => {
         const { id, timeFrame, projectName, jobTitle, description } = item;
         return (
           <li key={id}>
-            <h2>{jobTitle} </h2>
-            <h3>{description}</h3>
+            <h3>{jobTitle} </h3>
+
+            <h4>
+              {projectName}, from {timeFrame}
+            </h4>
+            <h5>
+              {description.map((des) => (
+                <p>{des}</p>
+              ))}
+            </h5>
           </li>
         );
       })
@@ -19,7 +27,7 @@ const ProjectInfo = (props) => {
 
   return (
     <React.Fragment>
-      <h3>Further Project Info</h3>
+      <h2>Further project description:</h2>
       <ul>{moreInfo}</ul>
       <Link to="/project" style={{ textDecoration: "none" }}>
         Back

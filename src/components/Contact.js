@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <React.Fragment>
-      <h1>Contact me!</h1>
+      <h2>Contact me!</h2>
       <div className="contact">
         <div className="split">
           <iframe
@@ -15,11 +15,12 @@ const About = () => {
           ></iframe>
         </div>
         <div className="split">
-          <h2>Dipl.-Ing. (FH)</h2>
-          <h2>Sven Wacker</h2>
+          <h3>Dipl.-Ing. (FH)</h3>
+          <h3>Sven Wacker</h3>
           <h3>CASA Technologies</h3>
           <br></br>
           <h4>Phone</h4>
+          <p>+49 6351 93 70 303</p>
           <p>+49 176 207 233 53</p>
           <h4>Email</h4>
           <p>s.u.wacker@outlook.de</p>

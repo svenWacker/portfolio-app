@@ -1,37 +1,37 @@
 [
   {
     "id": 0,
-    "timeFrame": "Sine 2019",
+    "timeFrame": "2019",
     "projectName": "Self employed",
     "jobTitle": "Engineer and Developer",
-    "description": "-text\n-text2\n-text3"
+    "description": ["text1", "text2", "text3"]
   },
   {
     "id": 1,
     "timeFrame": "2018 - 2019",
     "projectName": "Seleon GmbH",
     "jobTitle": "Area Sales Manger",
-    "description": "-text\n-text2\n-text3"
+    "description": ["text1", "text2", "text3"]
   },
   {
     "id": 2,
     "timeFrame": "2013 - 2018",
     "projectName": "Friatec AG",
     "jobTitle": "Business Development, Category Manager",
-    "description": "-text\n-text2\n-text3"
+    "description": ["text1", "text2", "text3"]
   },
   {
     "id": 3,
     "timeFrame": "2012 - 2013",
     "projectName": "Mechatronic AG",
     "jobTitle": "Sales Manager",
-    "description": "-text\n-text2\n-text3"
+    "description": ["text1", "text2", "text3"]
   },
   {
     "id": 4,
     "timeFrame": "2008 - 2012",
     "projectName": "Friatec AG",
     "jobTitle": "Application Engineer",
-    "description": "-text\n-text2\n-text3"
+    "description": ["text1", "text2", "text3"]
   }
 ]

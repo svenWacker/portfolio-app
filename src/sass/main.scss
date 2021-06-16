@@ -1,9 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
-// body {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
+body {
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 nav li {
   padding-left: 2rem;
@@ -20,7 +20,7 @@ nav li:hover {
   // display: flex;
   margin: 0 auto;
   max-width: 1280px;
-  padding: 0 1px;
+  padding: 0 2px;
   min-height: 100vh;
   // border-radius: 10px;
   // flex-direction: column;
@@ -34,14 +34,26 @@ nav li:hover {
     min-height: 90vh;
   }
 }
+h2 {
+  margin-left: 30px;
+}
 .home,
 .contact,
 .about {
   display: flex;
-  // justify-content: center;
-  // align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
 }
 .split {
   width: 100%;
   padding-right: 25px;
+}
+.navBar {
+  display: flex;
+  display: inline-block;
+  width: 100vw;
+  height: 10vh;
+  background-color: brown;
+  border: solid 1px red;
 }

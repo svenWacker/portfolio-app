@@ -21,6 +21,7 @@ const App = () => {
             // <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
           }
           <Route path="/" exact component={Home} />
+          <Route path="/portfolio-app" exact component={Home} />
           <Route path="/about" exact component={About} />
           <Route path="/skills" exact component={Skills} />
           <Route path="/contact" exact component={Contact} />
