@@ -19,7 +19,7 @@ const App = () => {
       <div className="app">
         <NavBar />
         <h1 className="jumbotron">Portfolio Sven Wacker</h1>
-        <Switch style={{ minHeight: "90%" }}>
+        <Switch>
           {
             // <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
           }

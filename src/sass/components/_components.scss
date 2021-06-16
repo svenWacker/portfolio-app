@@ -1,0 +1,40 @@
+nav li {
+  list-style: none;
+  font-size: 1.4rem;
+  color: brown;
+}
+
+nav li:hover {
+  color: rgba(245, 143, 143, 0.698);
+  transform: scale(1.4);
+}
+
+h2,
+.link,
+.address {
+  margin-left: 30px;
+}
+.address,
+.person {
+  padding-left: 50px;
+}
+.home,
+.contact,
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.projects {
+  padding-left: 2rem;
+}
+.split {
+  width: 100%;
+  padding-right: 25px;
+}
+
+button {
+  border: none;
+  font-size: 200%;
+}

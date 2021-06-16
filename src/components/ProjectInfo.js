@@ -9,17 +9,17 @@ const ProjectInfo = (props) => {
     ? selectedItem.map((item) => {
         const { id, timeFrame, projectName, jobTitle, description } = item;
         return (
-          <li key={id}>
+          <li key={id} style={{ listStyle: "none" }}>
             <h3>{jobTitle} </h3>
 
             <h4>
-              {projectName}, from {timeFrame}
+              {projectName}, {timeFrame}
             </h4>
-            <h5>
+            <ul style={{ paddingLeft: "1rem" }}>
               {description.map((des) => (
-                <p>{des}</p>
+                <li>{des}</li>
               ))}
-            </h5>
+            </ul>
           </li>
         );
       })
@@ -28,9 +28,9 @@ const ProjectInfo = (props) => {
   return (
     <React.Fragment>
       <h2>Further project description:</h2>
-      <ul>{moreInfo}</ul>
-      <Link to="/project" style={{ textDecoration: "none" }}>
-        Back
+      <ul className="projects">{moreInfo}</ul>
+      <Link to="/project" className="link">
+        <button>Back</button>
       </Link>
     </React.Fragment>
   );

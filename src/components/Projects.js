@@ -4,7 +4,7 @@ const Project = ({ data }) => {
   const items = data.map((item) => {
     const { id, timeFrame, projectName, jobTitle } = item;
     return (
-      <li key={id}>
+      <li key={id} style={{ listStyle: "none" }}>
         <Link to={`/project/${id}`}>
           <h3>{jobTitle}</h3>
         </Link>
@@ -17,7 +17,9 @@ const Project = ({ data }) => {
   return (
     <React.Fragment>
       <h2>Projects </h2>
-      <ul className="projects">{items}</ul>
+      <div>
+        <ul className="projects">{items}</ul>
+      </div>
     </React.Fragment>
   );
 };
