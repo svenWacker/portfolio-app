@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Menu = () => {
   return (
-    <nav className="/navbar">
+    <nav className="navbar">
+      {/* <ul className="nav-links"> */}
       <Link to="/">
         <li>Home</li>
       </Link>
@@ -18,6 +19,7 @@ const Menu = () => {
       <Link to="/contact">
         <li>Contact</li>
       </Link>
+      {/* </ul> */}
     </nav>
   );
 };

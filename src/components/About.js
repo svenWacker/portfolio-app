@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
             environment.
           </p>
         </div>
-        {/* <div className="split">
+        <div className="split">
           <p>
             I like new technologies, easy and straight design, make life easier
             and understandable solutions and so far I love minimum maximum
@@ -22,7 +23,12 @@ const Contact = () => {
             hard-working and willing to learn in a changing and challenging
             environment.
           </p>
-        </div> */}
+        </div>
+      </div>
+      <div className="link">
+        <Link to="/">
+          <button>Home</button>
+        </Link>
       </div>
     </React.Fragment>
   );

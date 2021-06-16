@@ -8,21 +8,21 @@
   },
   {
     "id": 1,
-    "timeFrame": "2018 - 2019",
+    "timeFrame": "2019",
     "projectName": "Seleon GmbH",
     "jobTitle": "Area Sales Manger",
     "description": ["text1", "text2", "text3"]
   },
   {
     "id": 2,
-    "timeFrame": "2013 - 2018",
+    "timeFrame": "2014 - 2019",
     "projectName": "Friatec AG",
     "jobTitle": "Business Development, Category Manager",
     "description": ["text1", "text2", "text3"]
   },
   {
     "id": 3,
-    "timeFrame": "2012 - 2013",
+    "timeFrame": "2012 - 2014",
     "projectName": "Mechatronic AG",
     "jobTitle": "Sales Manager",
     "description": ["text1", "text2", "text3"]
