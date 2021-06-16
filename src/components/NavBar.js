@@ -4,19 +4,19 @@ const Menu = () => {
   return (
     <nav className="navbar">
       {/* <ul className="nav-links"> */}
-      <Link to="/">
+      <Link to="/" style={{ textDecoration: "none" }}>
         <li>Home</li>
       </Link>
-      <Link to="/about">
+      <Link to="/about" style={{ textDecoration: "none" }}>
         <li>About</li>
       </Link>
-      <Link to="/skills">
+      <Link to="/skills" style={{ textDecoration: "none" }}>
         <li>Skills</li>
       </Link>
-      <Link to="/project">
+      <Link to="/project" style={{ textDecoration: "none" }}>
         <li>Works</li>
       </Link>
-      <Link to="/contact">
+      <Link to="/contact" style={{ textDecoration: "none" }}>
         <li>Contact</li>
       </Link>
       {/* </ul> */}

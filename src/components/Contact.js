@@ -14,7 +14,7 @@ const About = () => {
             loading="lazy"
           ></iframe>
         </div>
-        <div className="split">
+        <div className="split address">
           <h3>Dipl.-Ing. (FH)</h3>
           <h3>Sven Wacker</h3>
           <h3>CASA Technologies</h3>

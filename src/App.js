@@ -1,7 +1,8 @@
 import React from "react";
+// import { ImageBackground, StyleSheet, Text, View } from "react-native";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Data from "./data.json";
+import ProjectData from "./project.json";
 import Projects from "./components/Projects";
 import ProjectInfo from "./components/ProjectInfo";
 import About from "./components/About";
@@ -28,7 +29,7 @@ const App = () => {
           <Route
             path="/project"
             exact
-            component={() => <Projects data={Data} />}
+            component={() => <Projects data={ProjectData} />}
           />
           {
             // more about match
@@ -38,15 +39,9 @@ const App = () => {
             path="/project/:id"
             component={({ match }) => {
               console.log(match);
-              return <ProjectInfo data={Data} id={match.params.id} />;
+              return <ProjectInfo data={ProjectData} id={match.params.id} />;
             }}
           />
-          {
-            //  <Route  path="/products"
-            // exact >
-            // <Products data={Data} />
-            // </Route>
-          }
           <Route path={() => "/main" || "/admin" || "/any-other-word"}>
             <Soon />
           </Route>
