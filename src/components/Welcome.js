@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const Welcome = () => {
   return (
     <div className="home">
       <div className="split">
@@ -9,20 +9,15 @@ const Home = () => {
           <p>I am Sven</p>
           <p>Engineer and Developer</p>
         </h1>
-        <br />
         <Link to="about">
           <button>More Information</button>
         </Link>
       </div>
       <div className="split person">
-        <img
-          src={`${process.env.PUBLIC_URL}/me.jpg`}
-          alt="my picture"
-          style={{ borderRadius: "50%" }}
-        />
+        <img src={`${process.env.PUBLIC_URL}/me.jpg`} alt="my picture" />
       </div>
     </div>
   );
 };
 
-export default Home;
+export default Welcome;

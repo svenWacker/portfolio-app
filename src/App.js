@@ -9,6 +9,7 @@ import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
+import Welcome from "./components/Welcome";
 import Contact from "./components/Contact";
 import Soon from "./components/Soon";
 const App = () => {
