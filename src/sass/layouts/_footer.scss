@@ -1,7 +1,14 @@
 .footer-wrapper {
   text-align: center;
-  color: brown;
+  color: $clr-neutral-900;
   padding: 20px;
   bottom: 0;
   width: 100%;
+  .social {
+    font-size: 1.4rem;
+  }
+  .social:hover {
+    font-size: 2.4rem;
+    opacity: 0.5;
+  }
 }

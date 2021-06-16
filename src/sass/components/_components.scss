@@ -1,14 +1,24 @@
 nav li {
   list-style: none;
   font-size: 1.4rem;
-  color: brown;
+  color: $clr-neutral-900;
 }
 
 nav li:hover {
-  color: rgba(245, 143, 143, 0.698);
+  color: $clr-secondary;
   transform: scale(1.4);
 }
-
+.main-heading {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: $clr-primary;
+  border-radius: 0.5rem;
+  color: $clr-neutral-100;
+  text-align: center;
+}
+.jobTitle {
+  color: $clr-secondary;
+}
 h2,
 .link,
 .address {
@@ -36,5 +46,8 @@ h2,
 
 button {
   border: none;
-  font-size: 200%;
+  height: 40px;
+  width: 80px;
+  font-size: 2rem;
+  background-color: $clr-secondary;
 }

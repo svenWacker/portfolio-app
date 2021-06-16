@@ -14,3 +14,7 @@
 @import "layouts/_layouts-dir";
 
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: $poster-background;
+}

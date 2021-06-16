@@ -10,7 +10,7 @@ const ProjectInfo = (props) => {
         const { id, timeFrame, projectName, jobTitle, description } = item;
         return (
           <li key={id} style={{ listStyle: "none" }}>
-            <h3>{jobTitle} </h3>
+            <h3 className="jobTitle">{jobTitle} </h3>
 
             <h4>
               {projectName}, {timeFrame}

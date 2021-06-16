@@ -6,7 +6,9 @@ const Project = ({ data }) => {
     return (
       <li key={id} style={{ listStyle: "none" }}>
         <Link to={`/project/${id}`}>
-          <h3>{jobTitle}</h3>
+          <h3 style={{ textDecoration: "none" }} className="jobTitle">
+            {jobTitle}
+          </h3>
         </Link>
         <h4>{projectName}</h4>
         <h4>{timeFrame}</h4>
@@ -18,7 +20,9 @@ const Project = ({ data }) => {
     <React.Fragment>
       <h2>Projects </h2>
       <div>
-        <ul className="projects">{items}</ul>
+        <ul style={{ textDecoration: "none" }} className="projects">
+          {items}
+        </ul>
       </div>
     </React.Fragment>
   );
