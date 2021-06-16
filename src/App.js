@@ -9,16 +9,17 @@ import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
-import Welcome from "./components/Welcome";
+// import Welcome from "./components/Welcome";
 import Contact from "./components/Contact";
 import Soon from "./components/Soon";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <Router>
       <div className="app">
         <NavBar />
         <h1 className="jumbotron">Portfolio Sven Wacker</h1>
-        <Switch>
+        <Switch style={{ minHeight: "90%" }}>
           {
             // <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
           }
@@ -47,6 +48,7 @@ const App = () => {
             <Soon />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

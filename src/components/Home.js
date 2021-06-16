@@ -17,7 +17,7 @@ const Home = () => {
       <div className="split person">
         <img
           src={`${process.env.PUBLIC_URL}/me.jpg`}
-          alt="my picture"
+          alt="my profil pic"
           style={{ borderRadius: "50%" }}
         />
       </div>

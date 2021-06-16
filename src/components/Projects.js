@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Project = ({ data }) => {
   const items = data.map((item) => {
-    const { id, timeFrame, projectName, jobTitle, description } = item;
+    const { id, timeFrame, projectName, jobTitle } = item;
     return (
       <li key={id}>
         <Link to={`/project/${id}`}>
@@ -17,7 +17,7 @@ const Project = ({ data }) => {
   return (
     <React.Fragment>
       <h2>Projects </h2>
-      <ul>{items}</ul>
+      <ul className="projects">{items}</ul>
     </React.Fragment>
   );
 };

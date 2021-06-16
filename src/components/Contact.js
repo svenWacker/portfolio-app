@@ -12,6 +12,7 @@ const About = () => {
             height="500px"
             allowfullscreen=""
             loading="lazy"
+            title="google casa verde"
           ></iframe>
         </div>
         <div className="split address">
