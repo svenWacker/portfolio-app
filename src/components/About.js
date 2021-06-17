@@ -48,7 +48,7 @@ const Contact = () => {
       </div>
       <div className="link">
         <Link to="/">
-          <button>Home</button>
+          <button className="button-design">Home</button>
         </Link>
       </div>
     </React.Fragment>

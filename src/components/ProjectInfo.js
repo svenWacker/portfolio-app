@@ -30,7 +30,7 @@ const ProjectInfo = (props) => {
       <h2>Further project description:</h2>
       <ul className="projects">{moreInfo}</ul>
       <Link to="/project" className="link">
-        <button>Back</button>
+        <button className="button-design">Back</button>
       </Link>
     </React.Fragment>
   );

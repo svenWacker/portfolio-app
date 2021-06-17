@@ -2,7 +2,6 @@
 
 :root {
   font-family: $ff-primary;
-  // font-size: $defaultFontSize;
   color: $fontColor;
   background-color: black;
 }
@@ -39,9 +38,9 @@ body {
     flex-wrap: wrap;
   }
 }
-.main {
-  width: 90vw;
-  margin: 0 auto;
-  padding: 30px 20px;
-  min-height: calc(100vh - 211px - 58px);
-}
+// .main {
+//   width: 90vw;
+//   margin: 0 auto;
+//   padding: 30px 20px;
+//   min-height: calc(100vh - 211px - 58px);
+// }

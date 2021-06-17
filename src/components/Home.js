@@ -11,7 +11,7 @@ const Home = () => {
         </h1>
         <br />
         <Link to="about">
-          <button>More</button>
+          <button className="button-design">More</button>
         </Link>
       </div>
       <div className="split person">
