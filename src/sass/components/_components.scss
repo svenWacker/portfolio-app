@@ -45,7 +45,7 @@ h2,
 }
 
 .button-design {
-  border-radius: 10px;
+  border-radius: 9px;
   padding: 0.1em 0.3em;
   margin-top: 1rem;
   font-family: inherit;
@@ -54,6 +54,7 @@ h2,
 }
 .button-design:hover {
   transform: scale(1.4);
+  transition: 0.7s;
   background-color: $clr-primary;
   color: $clr-neutral-100;
 }

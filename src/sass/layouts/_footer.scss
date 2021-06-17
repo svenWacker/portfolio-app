@@ -13,7 +13,8 @@
     }
     .social:hover {
       color: $clr-secondary;
-      font-size: 3.2rem;
+      transform: scale(1.5);
+      transition: 0.5s;
     }
   }
 }

@@ -1,5 +1,5 @@
 import {
-  FaFacebook,
+  FaMailBulk,
   FaGithub,
   FaInstagram,
   FaXing,
@@ -12,11 +12,24 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="social-wrapper">
-        <FaFacebook className="social" />
-        <FaGithub className="social" />
-        <FaInstagram className="social" />
-        <FaXing className="social" />
-        <FaLinkedinIn className="social" />
+        <a href="mailto:s.u.wacker@outlook.de" target="_blank">
+          <FaMailBulk className="social" />
+        </a>
+        <a href="https://github.com/svenWacker" target="_blank">
+          <FaGithub className="social" />
+        </a>{" "}
+        <a href="https://www.instagram.com/swfun75/" target="_blank">
+          <FaInstagram className="social" />
+        </a>
+        <a href="https://www.xing.com/profile/Sven_Wacker/cv" target="_blank">
+          <FaXing className="social" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sven-wacker-17764a119/"
+          target="_blank"
+        >
+          <FaLinkedinIn className="social" />
+        </a>
       </div>
       Copyright<sup>©</sup> <span className="year">{year}</span>
     </div>
