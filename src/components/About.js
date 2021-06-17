@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <React.Fragment>
-      <h2>About me</h2>
+      <h2 className="page-headings">About me</h2>
       <div className="about">
         <div>
           <h3>Technologie</h3>

@@ -6,9 +6,6 @@
   background-color: black;
 }
 
-h1 h2 h3 h4 {
-  font-family: $ff-accent;
-}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,9 +35,3 @@ body {
     flex-wrap: wrap;
   }
 }
-// .main {
-//   width: 90vw;
-//   margin: 0 auto;
-//   padding: 30px 20px;
-//   min-height: calc(100vh - 211px - 58px);
-// }

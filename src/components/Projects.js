@@ -2,13 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Works = ({ data }) => {
   const items = data.map((item) => {
-    const { id, timeFrame, projectName, jobTitle } = item;
+    const { id, timeFrame, projectName, jobTitle, projectDes } = item;
     return (
       <li key={id} style={{ listStyle: "none" }}>
-        <Link to={`/project/${id}`}>
-          <h3 style={{ textDecoration: "none" }} className="jobTitle">
-            {jobTitle}
-          </h3>
+        <Link style={{ textDecoration: "none" }} to={`/project/${id}`}>
+          <h3 className="jobTitle">{jobTitle}</h3>
         </Link>
         <h4>{projectName}</h4>
         <h4>{timeFrame}</h4>
@@ -18,7 +16,7 @@ const Works = ({ data }) => {
   });
   return (
     <React.Fragment>
-      <h2>Works </h2>
+      <h2 className="page-headings">Works </h2>
       <div>
         <ul style={{ textDecoration: "none" }} className="projects">
           {items}

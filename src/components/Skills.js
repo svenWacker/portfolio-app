@@ -19,7 +19,7 @@ const Skills = ({ data }) => {
   });
   return (
     <React.Fragment>
-      <h2>Skills</h2>
+      <h2 className="page-headings">Skills</h2>
       <div className="skills-wrapper">
         <div className="list">
           <ul className="skills">{items}</ul>

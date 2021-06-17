@@ -3,35 +3,76 @@
     "id": 0,
     "timeFrame": "2019",
     "projectName": "Self employed",
+    "projectDes": "Founded in 1998, a broad-based engineering service provider in the field of medical technology specializing in product.",
     "jobTitle": "Engineer and Developer",
-    "description": ["text1", "text2", "text3"]
+    "description": [
+      "Since December 2020 Web Development at DCI",
+      "Electrical Engineering",
+      "Sales Management and Marketing",
+      "Product Management",
+      "Project Management",
+      "Networking and Acquisition"
+    ]
   },
   {
     "id": 1,
     "timeFrame": "2019",
     "projectName": "Seleon GmbH",
+    "projectDes": "Founded in 1998, a broad-based engineering service provider in the field of medical technology specializing in product.",
     "jobTitle": "Area Sales Manger",
-    "description": ["text1", "text2", "text3"]
+    "description": [
+      "Electrical Engineering",
+      "Sales Management",
+      "Account and Key Accounts",
+      "Project Management",
+      "Networking",
+      "Acquisition"
+    ]
   },
   {
     "id": 2,
     "timeFrame": "2014 - 2019",
-    "projectName": "Friatec AG",
-    "jobTitle": "Business Development, Category Manager",
-    "description": ["text1", "text2", "text3"]
+    "projectName": "Friatec GmbH",
+    "jobTitle": "Business Development and Category Manager",
+    "projectDes": "Electrical Engineering and Accelerators (Ceramic-To-Metal Assemblies) Sales responsibilty for approx. 10 Mio €",
+    "description": [
+      "International Management",
+      "Physical Applications Specialist",
+      "Sales Management and Marketing",
+      "Business Development",
+      "Contract Management",
+      "Business Analyses",
+      "Product and Project Management",
+      "Networking and Acquisition"
+    ]
   },
   {
     "id": 3,
     "timeFrame": "2012 - 2014",
     "projectName": "Mechatronic AG",
+    "projectDes": "As a service provider, Mechatronic develop and manufactured medical devices under contracts with clients.",
     "jobTitle": "Sales Manager",
-    "description": ["text1", "text2", "text3"]
+    "description": [
+      "Sales Management and Marketing",
+      "Application Engineering",
+      "Contract Management",
+      "Product Management",
+      "Project Management",
+      "Expert for Ceramic-To-Metal Assemblies"
+    ]
   },
   {
     "id": 4,
     "timeFrame": "2008 - 2012",
     "projectName": "Friatec AG",
     "jobTitle": "Application Engineer",
-    "description": ["text1", "text2", "text3"]
+    "description": [
+      "Application Engineering",
+      "Sales Management",
+      "Account and Key Account Management",
+      "Acquisition and Networking",
+      "Marketing and Exhibitions",
+      "Customer-Relation-Ship-Management"
+    ]
   }
 ]
