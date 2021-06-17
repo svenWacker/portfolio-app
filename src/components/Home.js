@@ -4,11 +4,11 @@ const Home = () => {
   return (
     <div className="home">
       <div className="split">
-        <h1>
+        <h2>
           <p>Hi,</p>
           <p>I am Sven</p>
           <p>Engineer and Developer</p>
-        </h1>
+        </h2>
         <br />
         <Link to="about">
           <button className="button-design">More</button>

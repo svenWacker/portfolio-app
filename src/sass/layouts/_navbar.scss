@@ -3,15 +3,14 @@
   display: inline-block;
   width: 100vw;
   height: 10vh;
+}
+nav li {
+  list-style: none;
+  font-size: 1.4rem;
+  color: $clr-neutral-900;
+}
 
-  nav li {
-    list-style: none;
-    font-size: 1.4rem;
-    color: brown;
-  }
-
-  nav li:hover {
-    color: rgba(245, 143, 143, 0.698);
-    transform: scale(1.4);
-  }
+nav li:hover {
+  color: $clr-secondary;
+  transform: scale(1.4);
 }
