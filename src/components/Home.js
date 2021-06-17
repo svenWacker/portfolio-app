@@ -5,14 +5,10 @@ const Home = () => {
     <div className="home">
       <div className="split-home hello">
         <h2>
-          <p>Hi,</p>
-          <p>I am Sven</p>
-          <p>Engineer and Developer</p>
+          <p>Hi!</p>
+          <p>I am Sven,</p>
+          <p>Engineer and Developer.</p>
         </h2>
-        <br />
-        <Link to="about">
-          <button className="button-design">More</button>
-        </Link>
       </div>
       <div className="split-home person">
         <img

@@ -22,6 +22,11 @@ const Works = ({ data }) => {
           {items}
         </ul>
       </div>
+      <div className="download">
+        <a href="./CV.pdf" download>
+          Click to download my CV
+        </a>
+      </div>
     </React.Fragment>
   );
 };

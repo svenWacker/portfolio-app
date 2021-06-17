@@ -46,11 +46,6 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <div className="link">
-        <Link to="/">
-          <button className="button-design">Home</button>
-        </Link>
-      </div>
     </React.Fragment>
   );
 };

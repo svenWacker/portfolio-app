@@ -6,3 +6,18 @@
   color: $clr-secondary;
   margin: 0 4rem 0.5rem 0rem;
 }
+.download {
+  text-align: center;
+  a {
+    color: $clr-secondary;
+    font-size: 1.3rem;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    color: $clr-primary;
+    font-size: 1.6rem;
+    transition: 0.5s;
+  }
+}

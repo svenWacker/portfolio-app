@@ -31,7 +31,9 @@ const Footer = () => {
           <FaLinkedinIn className="social" />
         </a>
       </div>
-      Copyright<sup>©</sup> <span className="year">{year}</span>
+      <div className="copyright">
+        Copyright<sup>©</sup> <span className="year">{year}</span>
+      </div>
     </div>
   );
 };

@@ -3,11 +3,12 @@
   padding: 0.1em 0.3em;
   margin-top: 1rem;
   font-family: inherit;
-  font-size: 1.4em;
+  font-size: 1.2em;
   background-color: $clr-secondary;
+  align-items: center;
 }
 .button-design:hover {
-  transform: scale(1.4);
+  transform: scale(1.3);
   transition: 0.7s;
   background-color: $clr-primary;
   color: $clr-neutral-100;
