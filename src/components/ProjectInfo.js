@@ -11,7 +11,6 @@ const WorkInfo = (props) => {
         return (
           <li key={id} style={{ listStyle: "none" }}>
             <h3 className="jobTitle">{jobTitle} </h3>
-
             <h4>
               {projectName}, {timeFrame}
             </h4>

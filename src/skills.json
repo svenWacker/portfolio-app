@@ -3,26 +3,26 @@
     "id": 0,
     "skillName": "Spoken Languages",
     "description": [
-      "🇩🇪 German - Native speaker",
-      "🇬🇧 English - Proficient C1/C2",
-      "🇫🇷 French - Intermediate - B1/B2",
-      "🇮🇹 Italian - Elementary A1/A2",
-      "🇪🇸 Spanish - Elementary A1/A2"
+      "🇩🇪 German - Native",
+      "🇬🇧 English - Proficient",
+      "🇫🇷 French - Intermediate",
+      "🇮🇹 Italian - Elementary",
+      "🇪🇸 Spanish - Elementary"
     ]
   },
   {
     "id": 1,
     "skillName": "Platforms",
-    "description": ["Windows", "Linux", "Atmega", "WinCC"]
+    "description": ["Windows", "Linux", "Atmega", "WinCC", "Microcontroller"]
   },
   {
     "id": 2,
     "skillName": "Coding",
-    "description": ["C++", "Javascript", "HTML", "CSS", "NodeJS", "React"]
+    "description": ["C++", "Javascript", "HTML", "CSS/ SASS", "NodeJS", "React"]
   },
   {
     "id": 3,
     "skillName": "Applications",
-    "description": ["Office package", "Adobe"]
+    "description": ["Office package", "Adobe", "GitHub", "Trello"]
   }
 ]

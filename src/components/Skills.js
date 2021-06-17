@@ -6,7 +6,7 @@ const Skills = ({ data }) => {
     const { id, skillName, description } = item;
     return (
       <li key={id} style={{ listStyle: "none" }}>
-        <h3 style={{ textDecoration: "none" }} className="jobTitle">
+        <h3 style={{ textDecoration: "none" }} className="skillsTitle">
           {skillName}
         </h3>
         <ul style={{ paddingLeft: "1.5rem" }}>
@@ -21,9 +21,7 @@ const Skills = ({ data }) => {
     <React.Fragment>
       <h2>Skills</h2>
       <div>
-        <ul style={{ textDecoration: "none" }} className="skills">
-          {items}
-        </ul>
+        <ul className="skills">{items}</ul>
       </div>
     </React.Fragment>
   );
