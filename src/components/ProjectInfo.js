@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ProjectInfo = (props) => {
+const WorkInfo = (props) => {
   const selectedItem = props.data.filter((item) => item.id == props.id);
   console.log(selectedItem);
 
@@ -27,7 +27,7 @@ const ProjectInfo = (props) => {
 
   return (
     <React.Fragment>
-      <h2>Further project description:</h2>
+      <h2>Further work description:</h2>
       <ul className="projects">{moreInfo}</ul>
       <Link to="/project" className="link">
         <button className="button-design">Back</button>
@@ -36,4 +36,4 @@ const ProjectInfo = (props) => {
   );
 };
 
-export default ProjectInfo;
+export default WorkInfo;

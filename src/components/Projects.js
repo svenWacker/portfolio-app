@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Project = ({ data }) => {
+const Works = ({ data }) => {
   const items = data.map((item) => {
     const { id, timeFrame, projectName, jobTitle } = item;
     return (
@@ -18,7 +18,7 @@ const Project = ({ data }) => {
   });
   return (
     <React.Fragment>
-      <h2>Projects </h2>
+      <h2>Works </h2>
       <div>
         <ul style={{ textDecoration: "none" }} className="projects">
           {items}
@@ -28,4 +28,4 @@ const Project = ({ data }) => {
   );
 };
 
-export default Project;
+export default Works;

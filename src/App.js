@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProjectData from "./project.json";
+import SkillsData from "./skills.json";
 import Projects from "./components/Projects";
 import ProjectInfo from "./components/ProjectInfo";
 import About from "./components/About";
@@ -23,7 +24,10 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/portfolio-app" exact component={Home} />
           <Route path="/about" exact component={About} />
-          <Route path="/skills" exact component={Skills} />
+          <Route
+            path="/skills"
+            component={() => <Skills data={SkillsData} />}
+          />
           <Route path="/contact" exact component={Contact} />
           <Route
             path="/project"
