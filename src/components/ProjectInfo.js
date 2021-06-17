@@ -15,9 +15,9 @@ const ProjectInfo = (props) => {
             <h4>
               {projectName}, {timeFrame}
             </h4>
-            <ul style={{ paddingLeft: "1rem" }}>
+            <ul style={{ paddingLeft: "1.5rem" }}>
               {description.map((des) => (
-                <li>{des}</li>
+                <li style={{ fontSize: "1.4rem" }}>{des}</li>
               ))}
             </ul>
           </li>
