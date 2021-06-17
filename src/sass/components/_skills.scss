@@ -9,3 +9,18 @@
   color: $clr-secondary;
   margin: 2rem 4rem 1rem 0rem;
 }
+.technologyTitle {
+  color: $clr-secondary;
+  padding-left: 2rem;
+}
+.technologies-container {
+  padding-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  img {
+    width: 55px;
+    height: auto;
+    margin: 2rem;
+  }
+}

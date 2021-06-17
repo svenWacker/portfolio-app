@@ -1,7 +1,9 @@
-.skills {
-  text-decoration: none;
+.about {
   padding-left: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  h3 {
+    color: $clr-secondary;
+  }
 }
