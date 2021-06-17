@@ -4,11 +4,17 @@
   padding: 20px;
   bottom: 0;
   width: 100%;
-  .social {
+  .social-wrapper {
     font-size: 1.4rem;
-  }
-  .social:hover {
-    font-size: 2.4rem;
-    opacity: 0.5;
+    .social {
+      color: $clr-primary;
+      font-size: 2rem;
+      margin: 1rem;
+    }
+    .social:hover {
+      color: $clr-secondary;
+      font-size: 3.2rem;
+      opacity: 0.5;
+    }
   }
 }

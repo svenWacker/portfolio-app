@@ -11,12 +11,12 @@ const Footer = () => {
 
   return (
     <div className="footer-wrapper">
-      <div className="social">
-        <FaFacebook />
-        <FaGithub />
-        <FaInstagram />
-        <FaXing />
-        <FaLinkedinIn />
+      <div className="social-wrapper">
+        <FaFacebook className="social" />
+        <FaGithub className="social" />
+        <FaInstagram className="social" />
+        <FaXing className="social" />
+        <FaLinkedinIn className="social" />
       </div>
       Copyright<sup>©</sup> <span className="year">{year}</span>
     </div>
