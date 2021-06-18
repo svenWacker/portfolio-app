@@ -12,5 +12,6 @@ nav li {
 
 nav li:hover {
   color: $clr-secondary;
-  transform: scale(1.4);
+  transform: scale(1.2);
+  transition: 0.2s;
 }
