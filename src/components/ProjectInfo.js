@@ -38,9 +38,16 @@ const WorkInfo = (props) => {
     <React.Fragment>
       <h2 className="page-headings">Further work description:</h2>
       <ul className="projects">{moreInfo}</ul>
-      <Link to="/project" className="link">
-        <button className="button-design">Back</button>
-      </Link>
+      <div className="link-container">
+        <Link to="/project" className="link">
+          <button className="button-design">Back</button>
+        </Link>
+      </div>
+      <div className="download">
+        <a href="./CV.pdf" download>
+          Click to download my CV
+        </a>
+      </div>
     </React.Fragment>
   );
 };
