@@ -1,4 +1,4 @@
-# Getting Started with Translate To Morse App
+# Getting Started with Portfolio App
 
 This project was made by hand [Run Portfolio App](http://svenWacker.github.io/portfolio-app).
 
